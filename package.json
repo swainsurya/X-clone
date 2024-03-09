@@ -1,0 +1,22 @@
+{
+  "name": "x-clone",
+  "version": "1.0.0",
+  "description": "This is x.com ui clone using tailwind css",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "x.com",
+    "nodejs",
+    "tailwind",
+    "css",
+    "clone"
+  ],
+  "author": "surya",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
